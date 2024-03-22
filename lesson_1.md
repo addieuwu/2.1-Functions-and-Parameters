@@ -93,7 +93,11 @@ Create a function called tax_calculator(dollars), which takes in a dollar amount
 Create a function called calculator(operator) that:
 - asks the user for two numbers
 - does math based on the first number modified by the second number by the operator, ie. numbers = 3 & 4, operator = *, does 3x4;
-Note: for subtraction and addition, assume the first number given by the user is the number being subtracted from, our the numerator
+Note: for subtraction and division, assume the first number given by the user is the number being subtracted from, or the numerator
 
-### Pythagorean Theorem 
-Create a function called pythagorean(legA, legB). This function will perform the Pythagorean theorum to solve for the hypotenuse.
+### Pythagorean Theorem  
+- Create a function called pythagorean(legA, legB, Hypoteneuse). This function will perform the Pythagorean theorum to solve for the missing side.
+
+- Note there should be one missing side when you call the function and let that parameter equal to false
+
+- The function should be able to calculate any missing side of the right angle triangle.
