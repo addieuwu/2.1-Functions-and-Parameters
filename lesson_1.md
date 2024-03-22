@@ -87,17 +87,20 @@ Store the users answers and finally output (Hello, "name" , you are "age" years 
 -Replace each " " with the users answer.
 
 ### Tax calculator
-Create a function called tax_calculator(dollars), which takes in a dollar amount and prints the value with tax added (13%), onto the console. 
+Create a function called tax_calculator(dollars), which takes in a sum of money, calculates the tax, and prints the value with tax added (13%) onto the console. 
 
 ### Calculator 
 Create a function called calculator(operator) that:
-- asks the user for two numbers
+- prompts the user for two numbers
 - does math based on the first number modified by the second number by the operator, ie. numbers = 3 & 4, operator = *, does 3x4;
 Note: for subtraction and division, assume the first number given by the user is the number being subtracted from, or the numerator
 
 ### Pythagorean Theorem  
 - Create a function called pythagorean(legA, legB, Hypoteneuse). This function will perform the Pythagorean theorum to solve for the missing side.
 
-- Note there should be one missing side when you call the function and let that parameter equal to false
-
 - The function should be able to calculate any missing side of the right angle triangle.
+
+- Note: there should be one missing side when you call the function and let that parameter equal to false.
+
+- Hint: ie. pythagorean(9, 16, <b>false</b>). In this case, the hypoteneuse is missing, so the function will solve for the hypoteneuse.
+
