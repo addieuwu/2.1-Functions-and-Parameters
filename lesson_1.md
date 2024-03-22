@@ -72,7 +72,6 @@ function addition(num1, num2) {
 ```
 
 
-[Next Lesson](lesson_2.md)
 
 
 ## Your Task 
