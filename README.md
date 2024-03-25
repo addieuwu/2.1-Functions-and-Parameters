@@ -1,4 +1,4 @@
-# Lesson 1: What is a Function?
+# 2.1: What is a Function?
 
 A function is a simple yet effective way to organise and compact your code. Functions are reusable, unlike regular code, so you can do the same thing as many times as you like - without copying all that code. One of the most unique features about a function is that unlike a variable, it doesn't matter when or where you declare it - you can call the function <i>before</i> you declare it.
 
@@ -71,10 +71,10 @@ function addition(num1, num2) {
 26
 ```
 
+---
 
 
-
-## Your Task 
+# Your Task 
 
 ### Who are you
 Create a function called whoAreYou that prompts the user for:
@@ -92,7 +92,7 @@ Create a function called tax_calculator(dollars), which takes in a sum of money,
 ### Calculator 
 Create a function called calculator(operator) that:
 - prompts the user for two numbers
-- does math based on the first number modified by the second number by the operator, ie. numbers = 3 & 4, operator = *, does 3x4;
+- does math based on the first number modified by the second number by the operator, ie. numbers = 3 & 4, operator = '*', does 3x4;
 Note: for subtraction and division, assume the first number given by the user is the number being subtracted from, or the numerator
 
 ### Pythagorean Theorem  
@@ -102,5 +102,5 @@ Note: for subtraction and division, assume the first number given by the user is
 
 - Note: there should be one missing side when you call the function and let that parameter equal to false.
 
-- Hint: ie. pythagorean(9, 16, <b>false</b>). In this case, the hypoteneuse is missing, so the function will solve for the hypoteneuse.
+- Hint: ie. pythagorean(9, 16, **false**). In this case, the hypoteneuse is missing, so the function will solve for the hypoteneuse.
 
